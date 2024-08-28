@@ -7,7 +7,7 @@ public class IT24103011Lab6Q1 {
         System.out.print("Enter a number: ");
         double number = scanner.nextDouble();
 
-        double square = number * number;
+        double square = Math.pow(number,2);
         double squareRoot = Math.sqrt(number);
 
       
